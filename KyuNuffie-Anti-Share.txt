@@ -1,0 +1,16 @@
+[Adblock Plus 2.0]
+! Title: KyuNuffie Anti Share Button List
+! Description: Simple list to remove share buttons.
+! Acknowledgements: This header template was copied from yokoffing.
+! Homepage: https://github.com/KyuNuffie/Filterlists
+! Version: 31 March 2025
+! Syntax: AdBlock
+
+www.youtube.com###top-level-buttons-computed > yt-button-view-model.ytd-menu-renderer
+www.instagram.com##.xurb0ha.xwib8y2.x1sxyh0.x1y1aw1k.x1mywscw.x1a2a7pz.x1lku1pv.x87ps6o.x1q0g3np.x3nfvp2.x13rtm0m.x1e5q0jg.x3x9cwd.x1o1ewxj.x1t137rt.x1ja2u2z.xggy1nq.x1hl2dhg.x16tdsg8.x1n2onr6.xeuugli.x2lwn1j.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.x2lah0s.xdl72j9.x1ypdohk.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x26u7qi.x1q0q8m5.xu3j5b3.x13fuv20.x2hbi6w.xqeqjp1.xa49m3k.xjqpnuy.xjbqb8w.x1qjc9v5.x1i10hfl
+www.twitch.tv##div.bMOhzu.Layout-sc-1xcs6mc-0:nth-of-type(4)
+chatgpt.com##.text-token-text-primary.btn-secondary.relative.btn
+
+www.reddit.com##shreddit-comment-share-button
+www.reddit.com##shreddit-post-share-button
+www.reddit.com##button[data-testid="share"]

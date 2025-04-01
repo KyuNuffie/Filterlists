@@ -1,0 +1,69 @@
+[Adblock Plus 2.0]
+! Title: KyuNuffie Annoyances List
+! Description: Simple list to hide various annoyances and other unwanted content across websites.
+! Acknowledgements: This header template was copied from yokoffing.
+! Homepage: https://github.com/KyuNuffie/Filterlists
+! Version: 31 March 2025
+! Syntax: AdBlock
+
+
+
+! YOUTUBE
+! Hide Create Button
+www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
+! Hide Notificiation Button
+www.youtube.com##ytd-notification-topbar-button-renderer.ytd-masthead.style-scope
+! Hide Download, Thanks, and Clip Buttons
+www.youtube.com###flexible-item-buttons
+! Hide Browse Gaming Buttons
+www.youtube.com###endpoint-link
+! Hide Left Side Bar Google/YouTube Stuff
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com###footer > .ytd-guide-renderer.style-scope
+www.youtube.com###copyright
+! Hide News Section
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+! Hide Sponsor Button
+www.youtube.com###sponsor-button
+
+
+
+! GOODNOTES
+! Hide Bookmark Page Button
+web.goodnotes.com##.jaYgjJ.sc-8wexer-0
+
+
+
+! TWITTER
+! Hide Right Side Bar Terms and Conditions Stuff
+x.com##.r-1yadl64.r-1niwhzg.r-1udh08x.r-1ifxtd0.r-1phboty.r-1867qdf.r-1kqtdi0.css-175oi2r
+x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.css-175oi2r
+! Hide Left Side Bar Verified Orgs Button
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(10)
+! Hide Left Side Bar Premium Button
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(9)
+! Hide Left Side Bar Jobs Button
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(7)
+! Hide Left Side Bar Communities Button
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(8)
+
+
+
+! REDDIT
+! Hide Privacy Policy Stuff
+www.reddit.com##.mb-md.mx-md.flex.justify-self-end.legal-links
+
+
+
+! ANIMEKAI
+! Hide Footer
+animekai.to##footer
+! Hide Recent Stuff
+animekai.to##.alist-wrapper.swiper-wrapper
+! Hide Twitter Alert
+animekai.to##.alert-secondary.alert
+! Hide All, Dub, and China Recent Tabs
+animekai.to##span.tab:nth-of-type(1)
+animekai.to##span.tab:nth-of-type(3)
+animekai.to##span.tab:nth-of-type(4)
