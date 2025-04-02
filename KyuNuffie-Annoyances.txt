@@ -3,7 +3,7 @@
 ! Description: Simple list to hide various annoyances and other unwanted content across websites.
 ! Acknowledgements: This header template was copied from yokoffing.
 ! Homepage: https://github.com/KyuNuffie/Filterlists
-! Version: 31 March 2025
+! Version: 1 April 2025
 ! Syntax: AdBlock
 
 
@@ -67,3 +67,12 @@ animekai.to##.alert-secondary.alert
 animekai.to##span.tab:nth-of-type(1)
 animekai.to##span.tab:nth-of-type(3)
 animekai.to##span.tab:nth-of-type(4)
+
+
+
+! COMICK
+# Hide Ad Bars
+comick.io##.pt-2.pb-10
+comick.io##.py-16
+! Hide Comment Section
+comick.io###comment-section

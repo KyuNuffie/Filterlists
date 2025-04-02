@@ -1,0 +1,27 @@
+[Adblock Plus 2.0]
+! Title: KyuNuffie Enhanced Privacy List
+! Description: Simple list to block trackers and other unimportant connections not found in other filter lists.
+! Note: This may break some websites.
+! Acknowledgements: This header template was copied from yokoffing.
+! Homepage: https://github.com/KyuNuffie/Filterlists
+! Version: 1 April 2025
+! Syntax: AdBlock
+
+! Trackers/Unimportant Connections
+||firebase.googleapis.com^
+||paddle.com^
+||unleash-hosted.com^
+||typekit.net^
+||awswaf.com^
+||volccdn.com^
+||volces.com^
+||appzi.io^
+||mailchimp.com^
+||fivetran.com^
+||statuspage.io^
+||streamlitstatus.com^
+||twitter.com^
+||outbrain.com^
+||turner.com^
+||nsthgagq.com^
+||sentimentalmuscle.com^
