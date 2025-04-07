@@ -7,14 +7,11 @@
 ! Syntax: AdBlock
 
 
-
 ! YOUTUBE
 ! Hide Create Button
 www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
 ! Hide Notificiation Button
 www.youtube.com##ytd-notification-topbar-button-renderer.ytd-masthead.style-scope
-! Hide Download, Thanks, and Clip Buttons
-www.youtube.com###flexible-item-buttons
 ! Hide Browse Gaming Buttons
 www.youtube.com###endpoint-link
 ! Hide Left Side Bar Google/YouTube Stuff
@@ -28,11 +25,13 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 www.youtube.com###sponsor-button
 
 
-
-! GOODNOTES
-! Hide Bookmark Page Button
-web.goodnotes.com##.jaYgjJ.sc-8wexer-0
-
+! QUORA
+! Filter to block this insufferable website
+||quora.com^
+google.*##.g:has(a[href*="quora.com"])
+google.*##div.g:has(a[href*="quora.com"])
+google.*##div.MjjYud:has(a[href*="quora.com"])
+google.*##div.tF2Cxc:has(a[href*="quora.com"])
 
 
 ! TWITTER
@@ -49,11 +48,9 @@ x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6
 x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(8)
 
 
-
 ! REDDIT
 ! Hide Privacy Policy Stuff
 www.reddit.com##.mb-md.mx-md.flex.justify-self-end.legal-links
-
 
 
 ! ANIMEKAI
@@ -69,10 +66,27 @@ animekai.to##span.tab:nth-of-type(3)
 animekai.to##span.tab:nth-of-type(4)
 
 
-
 ! COMICK
 # Hide Ad Bars
 comick.io##.pt-2.pb-10
 comick.io##.py-16
 ! Hide Comment Section
 comick.io###comment-section
+
+
+! ChatGPT
+! Hide Bottom Bar
+chatgpt.com##.md\:px-\[60px\].text-token-text-secondary.text-xs.text-center.p-2.justify-center.items-center.w-full.min-h-8.flex.mt-auto.relative
+
+
+! Gemini
+! Hide Bottom Bar
+gemini.google.com##hallucination-disclaimer
+
+
+! May cause too much breakage or unintended behavior
+! Hide Download, Thanks, and Clip Buttons
+! www.youtube.com###flexible-item-buttons
+
+! Hide Bookmark Page Button
+! web.goodnotes.com##.jaYgjJ.sc-8wexer-0

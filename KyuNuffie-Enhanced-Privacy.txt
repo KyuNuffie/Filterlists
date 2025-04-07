@@ -8,20 +8,31 @@
 ! Syntax: AdBlock
 
 ! Trackers/Unimportant Connections
-||firebase.googleapis.com^
-||paddle.com^
-||unleash-hosted.com^
-||typekit.net^
-||awswaf.com^
-||volccdn.com^
-||volces.com^
+||altmetric.com^
 ||appzi.io^
-||mailchimp.com^
+||apperoni.top^
+||awswaf.com^
+||balley.top^
+||cnevids.com^
+||conde.digital^
+||cookielaw.org^
+||dimensions.ai^
 ||fivetran.com^
+||mailchimp.com^
+||mobilius.top^
+||nsthgagq.com^
+||omtrdc.net^
+||onetrust.com^
+||outbrain.com^
+||paddle.com^
+||picial.top^
+||rsms.me^
+||sentimentalmuscle.com^
 ||statuspage.io^
 ||streamlitstatus.com^
-||twitter.com^
-||outbrain.com^
+||twitter.com^$domain=x.com
+||typekit.net^
 ||turner.com^
-||nsthgagq.com^
-||sentimentalmuscle.com^
+||unleash-hosted.com^
+||volccdn.com^
+||volces.com^
