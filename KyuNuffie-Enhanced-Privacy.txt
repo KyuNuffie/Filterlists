@@ -36,3 +36,7 @@
 ||unleash-hosted.com^
 ||volccdn.com^
 ||volces.com^
+
+! May cause too much breakage
+!||alphafish.top^
+!||twitter.com^
