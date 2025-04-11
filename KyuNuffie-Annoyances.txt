@@ -3,7 +3,7 @@
 ! Description: Simple list to hide various annoyances and other unwanted content across websites.
 ! Acknowledgements: This header template was copied from yokoffing.
 ! Homepage: https://github.com/KyuNuffie/Filterlists
-! Version: 7 April 2025
+! Version: 11 April 2025
 ! Syntax: AdBlock
 
 
@@ -30,7 +30,6 @@ www.youtube.com###sponsor-button
 ||quora.com^
 google.*##.g:has(a[href*="quora.com"])
 google.*##div.g:has(a[href*="quora.com"])
-google.*##div.MjjYud:has(a[href*="quora.com"])
 google.*##div.tF2Cxc:has(a[href*="quora.com"])
 
 
@@ -72,6 +71,8 @@ comick.io##.pt-2.pb-10
 comick.io##.py-16
 ! Hide Comment Section
 comick.io###comment-section
+! Allow Profile Pictures
+@@||gravatar.com^$domain=comick.io
 
 
 ! ChatGPT
@@ -90,3 +91,6 @@ gemini.google.com##hallucination-disclaimer
 
 ! Hide Bookmark Page Button
 ! web.goodnotes.com##.jaYgjJ.sc-8wexer-0
+
+! Hide Quora in Google Search
+! google.*##div.MjjYud:has(a[href*="quora.com"])

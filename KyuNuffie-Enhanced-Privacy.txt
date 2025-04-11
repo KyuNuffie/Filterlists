@@ -4,7 +4,7 @@
 ! Note: This may break some websites.
 ! Acknowledgements: This header template was copied from yokoffing.
 ! Homepage: https://github.com/KyuNuffie/Filterlists
-! Version: 1 April 2025
+! Version: 11 April 2025
 ! Syntax: AdBlock
 
 ! Trackers/Unimportant Connections
@@ -20,6 +20,7 @@
 ||fivetran.com^
 ||mailchimp.com^
 ||mobilius.top^
+||nocookie.net^
 ||nsthgagq.com^
 ||omtrdc.net^
 ||onetrust.com^
@@ -38,5 +39,5 @@
 ||volces.com^
 
 ! May cause too much breakage
-!||alphafish.top^
-!||twitter.com^
+! ||alphafish.top^
+! ||twitter.com^
