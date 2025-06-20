@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: KyuNuffie Annoyances List
+! Title: 💢KyuNuffie Annoyances List
 ! Description: Simple list to hide various annoyances and other unwanted content across websites.
 ! Acknowledgements: This header template was copied from yokoffing.
 ! Homepage: https://github.com/KyuNuffie/Filterlists
